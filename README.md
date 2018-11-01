@@ -15,9 +15,9 @@ Load the rules
 Run a query
 
 ```
-(_childDocuments_.propertyType:(tumortype AND origintissue AND samplediagnosis)) AND
-(_childDocuments_.propertyValue: Blood AND_childDocuments_.propertyValue: "acute myeloid leukemia" AND
-_childDocuments_.propertyValue: "Primary"
+(properties.propertyType:(tumortype AND origintissue AND samplediagnosis)) AND
+(properties.propertyValue: Blood AND properties.propertyValue: "acute myeloid leukemia" AND
+properties.propertyValue: "Primary"
 ) AND
 tag.propertyType : samplediagnosis
 ```
