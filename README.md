@@ -1,4 +1,4 @@
-Install Solr 7.5.0
+Install Solr 5.5.3
 
 Start solr in schemaless mode
 
